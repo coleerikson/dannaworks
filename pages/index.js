@@ -51,7 +51,7 @@ export default function Home() {
                     >
                       Hire Me
                     </a>
-                    <Link href="https://www.tiktok.com/@danna.cj1" target="_blank">
+                    <Link href="https://www.tiktok.com/@danna.cj1" target="_blank" passHref>
                       <span
                         role="img"
                         aria-label="phone icon"
@@ -75,6 +75,7 @@ export default function Home() {
                 <div className="relative col-span-12 md:col-span-5">
                   <div className="rounded-xl shadow-lg">
                     <video controls style={{ width: "400px", height: "500px" }}>
+                      <track kind="captions" />
                       <source src="/images/danna-works-portfolio1.mov" />
                     </video>
                   </div>
@@ -114,6 +115,7 @@ export default function Home() {
                 <div className="relative col-span-12 md:col-span-5">
                   <div className="rounded-xl shadow-lg">
                     <video controls style={{ width: "400px", height: "500px" }}>
+                      <track kind="captions" />
                       <source src="/images/danna-works-portfolio1.mov" />
                     </video>
                   </div>
@@ -125,6 +127,7 @@ export default function Home() {
                 <div className="relative col-span-12 md:col-span-5">
                   <div className="rounded-xl shadow-lg">
                     <video controls style={{ width: "400px", height: "500px" }}>
+                      <track kind="captions" />
                       <source src="/images/danna-works-portfolio1.mov" />
                     </video>
                   </div>
