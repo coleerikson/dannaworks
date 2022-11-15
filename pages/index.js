@@ -1,6 +1,6 @@
 import { PageSEO } from "@/components/SEO"
 import SectionContainer from "@/components/SectionContainer"
-import Image from "@/components/image"
+import Image from "@/components/Image"
 import Link from "next/link"
 
 import siteMetadata from "@/data/siteMetadata"

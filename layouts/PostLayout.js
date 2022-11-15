@@ -3,7 +3,6 @@ import PageTitle from "@/components/PageTitle"
 import BannerSignup from "@/components/BannerSignup"
 import SectionContainer from "@/components/SectionContainer"
 import { BlogSEO } from "@/components/SEO"
-// import Image from "@/components/Image"
 import siteMetadata from "@/data/siteMetadata"
 import ScrollTopAndComment from "@/components/ScrollTopAndComment"
 
