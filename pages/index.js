@@ -13,25 +13,25 @@ export default function Home() {
       <main>
         <section className="bg-tan">
           <SectionContainer>
-            <div className="grid grid-cols-12 items-center justify-between pt-20 pb-28 sm:flex-row md:pb-40">
-              <div className="col-span-12 md:col-span-4">
-                <div className="h-80 w-80 rounded-full overflow-hidden shadow-lg">
+            <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-6 items-center justify-center lg:justify-between py-20 sm:flex-row md:pb-20">
+              <div className="col-span-3 md:col-span-1">
+                <div className="mx-auto w-80 lg:w-full h-80 relative flex items-center justify-center rounded-full overflow-hidden shadow-2xl">
                   <Image
                     src="/images/danna-cabrera-jimenez.jpg"
                     alt="Danna Cabrera Jimenez"
-                    width="1186"
-                    height="941"
-                    lay
+                    width="941"
+                    height="1186"
+                    className="object-fit"
                   />
                 </div>
               </div>
 
-              <div className="col-span-12 sm:col-start-2 md:col-start-6">
+              <div className="col-span-3 md:col-span-2">
                 <div className="bg-faded mt-8 rounded-md p-3 md:mt-0">
-                  <h1 className="md:leading-20 lead mb-4 text-center text-3xl font-extrabold leading-9 tracking-tight text-gray-700 sm:text-5xl md:text-left">
+                  <h1 className="md:leading-20 lead lg:mb-1 text-center text-3xl font-extrabold leading-9 tracking-tight text-gray-700 sm:text-5xl lg:text-left">
                     Danna Cabrera Jimenez
                   </h1>
-                  <h2 className="md:leading-20 lead mb-4 text-center text-3xl font-semibold leading-9 tracking-tight text-gray-500 md:text-left">
+                  <h2 className="md:leading-20 lead mb-6 text-center text-3xl font-semibold leading-9 tracking-tight text-gray-500 lg:text-left">
                     The portfolio and creative works
                   </h2>
                   <p className="mb-6">
@@ -44,7 +44,7 @@ export default function Home() {
                     justo eu massa ultricies lacinia. Nulla feugiat nibh quis tempor consectetur.
                   </p>
 
-                  <div className="flex items-center gap-2">
+                  <div className="flex justify-center lg:justify-start items-center gap-2">
                     <a
                       href="email:dannacarolinacj@hotmail.com"
                       className=" bg-pink-500 inline-block px-6 py-4 shadow-lg uppercase font-semibold rounded-md text-white text-2xl hover:bg-pink-700"
